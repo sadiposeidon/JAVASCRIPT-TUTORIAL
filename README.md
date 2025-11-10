@@ -73,9 +73,9 @@ nvm install
 
 ** NPM **
 # NODE PACKAGE MANAGER
-npm install	 # lokal
-npm install -g	 # qlobal
-
+npm install	 	# lokal
+npm install -g	 	# qlobal
+npm install --save-dev
 
 ** NPX **
 # Paketləri qlobal quraşdırmadan bir dəfəlik çalışdırmaq
