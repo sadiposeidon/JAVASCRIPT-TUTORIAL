@@ -1,6 +1,5 @@
 ** LINUX **
 mkdir	# Qovluq yaradir
-
 cd 	# Qovluqa daxil olur
 touch 	# Yeni fayl yaradir
 ls 	# Qovluqdaki fayllari gosterir
