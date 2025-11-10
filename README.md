@@ -1,10 +1,10 @@
 ** LINUX **
 mkdir	# Qovluq yaradir
-cd 	# Qovluqa daxil olur
+cd 	    # Qovluqa daxil olur
 touch 	# Yeni fayl yaradir
-ls 	# Qovluqdaki fayllari gosterir
-rm 	# Fayli silir
-mv 	# Fayli veya qovlugu kocurur/adini deyisdir
+ls 	    # Qovluqdaki fayllari gosterir
+rm 	    # Fayli silir
+mv 	    # Fayli veya qovlugu kocurur/adini deyisdir
 
 pwd                  	# Cari qovlugun yolunu gosterir
 cd ..                	# Bir yuxari qovluqa kecir
@@ -45,10 +45,10 @@ clear                  	# Terminali temizleyir
 # Yeni SSH acari yaradir
 ssh-keygen -t ed25519 -C "sadiposeidon@gmail.com"
 
-ls -al ~/.ssh			# SSH fayllarini gosterir
+ls -al ~/.ssh			    # SSH fayllarini gosterir
 eval "$(ssh-agent -s)"		# SSH agenti ishe salir
 ssh-add ~/.ssh/id_ed25519	# Private key-i agent-ə elave edir
-cat ~/.ssh/id_ed25519.pub       # Private key-i gosterir (Sexsi)
+cat ~/.ssh/id_ed25519.pub   # Private key-i gosterir (Sexsi)
 cat ~/.ssh/id_ed25519.pub	# Public key-i gosterir (GitHub-a yapistirmaq ucun)
 ssh -T git@github.com		# GitHub ile baglantini test edir
 
