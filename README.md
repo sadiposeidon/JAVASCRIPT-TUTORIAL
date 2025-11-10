@@ -2,6 +2,9 @@
 mkdir - QOVLUQ YARADIR
 cd - SECILEN QOVLUQA GIRIR
 touch - FAYL YARADIR
+ls - FAYLLARI GOSTERIR (ls -al ~/.ssh)
+rm
+mv
 
 ** GIT **
 git clone https://github.com/sadiposeidon/JAVASCRIPT-TUTORIAL.git
